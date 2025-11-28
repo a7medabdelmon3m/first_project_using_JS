@@ -1,9 +1,7 @@
-
-
-var key = "meal" ;
+var key = "meal";
 
 var recipes = [];
-  recipes = [
+recipes = [
   {
     title: "Classic Caesar Salad",
     img: "meal-3.jpg",
@@ -14,20 +12,21 @@ var recipes = [];
     servings: 2,
     level: "Easy",
     cuisine: "Italian-American",
-    description: "A fresh and vibrant salad featuring crispy romaine lettuce, savory croutons, shaved Parmesan, and a creamy Caesar dressing.", // 👈 الوصف الجديد
+    description:
+      "A fresh and vibrant salad featuring crispy romaine lettuce, savory croutons, shaved Parmesan, and a creamy Caesar dressing.", // 👈 الوصف الجديد
     ingredients: [
       "Romaine lettuce, chopped",
       "Cherry tomatoes, halved",
       "Croutons",
       "Parmesan cheese, shaved",
-      "Caesar dressing"
+      "Caesar dressing",
     ],
     instruction: [
       "Wash and dry the lettuce thoroughly.",
       "In a large bowl, toss lettuce with Caesar dressing.",
       "Add croutons and cherry tomatoes.",
       "Top with shaved Parmesan cheese.",
-      "Serve immediately with fresh black pepper."
+      "Serve immediately with fresh black pepper.",
     ],
     nutrition: {
       calories: 320,
@@ -35,14 +34,14 @@ var recipes = [];
       carbs: "15g",
       fat: "24g",
       fiber: "4g",
-      sodium: "580mg"
+      sodium: "580mg",
     },
     Tips: [
       "Use stale bread to make the best crunchy croutons",
       "Add grilled chicken for extra protein",
       "Chill the plates before serving to keep salad crisp",
-      "Make the dressing from scratch for better flavor"
-    ]
+      "Make the dressing from scratch for better flavor",
+    ],
   },
   {
     title: "Grilled Ribeye Steak",
@@ -54,20 +53,21 @@ var recipes = [];
     servings: 2,
     level: "Intermediate",
     cuisine: "American",
-    description: "Juicy ribeye steak, seared to perfection and basted with garlic butter and rosemary for a rich, savory flavor.", // 👈 الوصف الجديد
+    description:
+      "Juicy ribeye steak, seared to perfection and basted with garlic butter and rosemary for a rich, savory flavor.", // 👈 الوصف الجديد
     ingredients: [
       "2 Ribeye steaks (1 inch thick)",
       "2 cloves garlic, crushed",
       "Fresh rosemary sprigs",
       "3 tablespoons butter",
-      "Salt and coarse black pepper"
+      "Salt and coarse black pepper",
     ],
     instruction: [
       "Season steaks generously with salt and pepper.",
       "Sear in a hot cast-iron skillet for 3-4 minutes per side.",
       "Add butter, garlic, and rosemary to the pan.",
       "Baste the steak with the melting butter.",
-      "Rest for 5-10 minutes before slicing."
+      "Rest for 5-10 minutes before slicing.",
     ],
     nutrition: {
       calories: 650,
@@ -75,14 +75,14 @@ var recipes = [];
       carbs: "0g",
       fat: "52g",
       fiber: "0g",
-      sodium: "120mg"
+      sodium: "120mg",
     },
     Tips: [
       "Take steak out of fridge 30 mins before cooking",
       "Don't skip the resting period to keep juices in",
       "Use a meat thermometer for perfect doneness",
-      "Cut against the grain for tenderness"
-    ]
+      "Cut against the grain for tenderness",
+    ],
   },
   {
     title: "Tofu Buddha Bowl",
@@ -94,21 +94,22 @@ var recipes = [];
     servings: 1,
     level: "Easy",
     cuisine: "Fusion",
-    description: "A colorful and protein-packed bowl featuring pan-fried tofu, fresh edamame, sweet corn, boiled eggs, and seasonal vegetables.", // 👈 الوصف الجديد
+    description:
+      "A colorful and protein-packed bowl featuring pan-fried tofu, fresh edamame, sweet corn, boiled eggs, and seasonal vegetables.", // 👈 الوصف الجديد
     ingredients: [
       "Fried tofu cubes",
       "Boiled quail eggs",
       "Edamame beans",
       "Sweet corn",
       "Red cabbage, shredded",
-      "Cucumber and cherry tomatoes"
+      "Cucumber and cherry tomatoes",
     ],
     instruction: [
       "Cook rice or quinoa as a base.",
       "Pan-fry tofu cubes until golden brown.",
       "Arrange all vegetables and eggs neatly over the base.",
       "Drizzle with soy sauce or sesame dressing.",
-      "Sprinkle with sesame seeds."
+      "Sprinkle with sesame seeds.",
     ],
     nutrition: {
       calories: 410,
@@ -116,14 +117,14 @@ var recipes = [];
       carbs: "45g",
       fat: "16g",
       fiber: "8g",
-      sodium: "450mg"
+      sodium: "450mg",
     },
     Tips: [
       "Press tofu before cooking to get it crispy",
       "Great for meal prep containers",
       "Swap veggies based on season",
-      "Add avocado for extra healthy fats"
-    ]
+      "Add avocado for extra healthy fats",
+    ],
   },
   {
     title: "Chicken Tikka Masala",
@@ -135,21 +136,22 @@ var recipes = [];
     servings: 4,
     level: "Intermediate",
     cuisine: "Indian",
-    description: "Tender chicken marinated in yogurt and spices, served in a rich, creamy, and mildly spicy tomato sauce with warm naan bread.", // 👈 الوصف الجديد
+    description:
+      "Tender chicken marinated in yogurt and spices, served in a rich, creamy, and mildly spicy tomato sauce with warm naan bread.", // 👈 الوصف الجديد
     ingredients: [
       "500g Chicken breast, cubed",
       "1 cup plain yogurt",
       "Tomato puree",
       "Heavy cream",
       "Garam masala and spices",
-      "Fresh cilantro"
+      "Fresh cilantro",
     ],
     instruction: [
       "Marinate chicken in yogurt and spices for 1 hour.",
       "Grill or sear chicken pieces until charred.",
       "Simmer tomato puree with cream and spices.",
       "Add chicken to the sauce and cook for 15 minutes.",
-      "Serve hot with Naan bread."
+      "Serve hot with Naan bread.",
     ],
     nutrition: {
       calories: 540,
@@ -157,14 +159,14 @@ var recipes = [];
       carbs: "18g",
       fat: "38g",
       fiber: "3g",
-      sodium: "890mg"
+      sodium: "890mg",
     },
     Tips: [
       "Marinate overnight for deeper flavor",
       "Use cashew paste for a thicker sauce",
       "Adjust chili powder for heat level",
-      "Garnish with fresh cilantro before serving"
-    ]
+      "Garnish with fresh cilantro before serving",
+    ],
   },
   {
     title: "Thai Red Curry",
@@ -176,21 +178,22 @@ var recipes = [];
     servings: 3,
     level: "Intermediate",
     cuisine: "Thai",
-    description: "A fragrant and spicy curry with coconut milk, red chili paste, bamboo shoots, and fresh Thai basil.", // 👈 الوصف الجديد
+    description:
+      "A fragrant and spicy curry with coconut milk, red chili paste, bamboo shoots, and fresh Thai basil.", // 👈 الوصف الجديد
     ingredients: [
       "Red curry paste",
       "Coconut milk",
       "Bamboo shoots",
       "Red chili peppers",
       "Thai basil leaves",
-      "Meat or Tofu of choice"
+      "Meat or Tofu of choice",
     ],
     instruction: [
       "Fry curry paste in a little oil until fragrant.",
       "Pour in coconut milk and bring to a simmer.",
       "Add meat/tofu and vegetables.",
       "Cook until tender.",
-      "Garnish with fresh basil and chili."
+      "Garnish with fresh basil and chili.",
     ],
     nutrition: {
       calories: 460,
@@ -198,14 +201,14 @@ var recipes = [];
       carbs: "12g",
       fat: "35g",
       fiber: "4g",
-      sodium: "620mg"
+      sodium: "620mg",
     },
     Tips: [
       "Don't boil coconut milk rapidly or it may split",
       "Add a splash of fish sauce for umami",
       "Lime leaves add authentic aroma",
-      "Serve with jasmine rice"
-    ]
+      "Serve with jasmine rice",
+    ],
   },
   {
     title: "Spicy Glazed Tofu Bowl",
@@ -217,21 +220,22 @@ var recipes = [];
     servings: 2,
     level: "Easy",
     cuisine: "Asian Fusion",
-    description: "Crispy tofu slices glazed in a fiery chili garlic sauce, served over mixed greens and colorful shredded vegetables.", // 👈 الوصف الجديد
+    description:
+      "Crispy tofu slices glazed in a fiery chili garlic sauce, served over mixed greens and colorful shredded vegetables.", // 👈 الوصف الجديد
     ingredients: [
       "Firm tofu, sliced",
       "Chili garlic sauce",
       "Green onions",
       "Purple cabbage",
       "Corn kernels",
-      "Mixed greens"
+      "Mixed greens",
     ],
     instruction: [
       "Sauté tofu with chili garlic sauce.",
       "Prepare the salad base with greens and cabbage.",
       "Top with warm spicy tofu.",
       "Sprinkle corn and green onions.",
-      "Serve with extra lime juice."
+      "Serve with extra lime juice.",
     ],
     nutrition: {
       calories: 380,
@@ -239,14 +243,14 @@ var recipes = [];
       carbs: "28g",
       fat: "18g",
       fiber: "6g",
-      sodium: "510mg"
+      sodium: "510mg",
     },
     Tips: [
       "Use extra firm tofu for better texture",
       "Adjust chili sauce to taste",
       "Can be eaten warm or cold",
-      "Add sesame oil for aroma"
-    ]
+      "Add sesame oil for aroma",
+    ],
   },
   {
     title: "Fresh Baguette Sandwich",
@@ -258,20 +262,21 @@ var recipes = [];
     servings: 1,
     level: "Easy",
     cuisine: "French",
-    description: "A simple yet delicious deli-style sandwich on a crispy French baguette, layered with fresh lettuce, tomatoes, and sliced cheese.", // 👈 الوصف الجديد
+    description:
+      "A simple yet delicious deli-style sandwich on a crispy French baguette, layered with fresh lettuce, tomatoes, and sliced cheese.", // 👈 الوصف الجديد
     ingredients: [
       "Fresh baguette loaf",
       "Lettuce leaves",
       "Cherry tomatoes",
       "Sliced cheese (Swiss or Gouda)",
-      "Mustard or butter"
+      "Mustard or butter",
     ],
     instruction: [
       "Slice the baguette lengthwise.",
       "Spread butter or mustard on both sides.",
       "Layer cheese, lettuce, and tomatoes.",
       "Close the sandwich and press lightly.",
-      "Serve with a side dip if desired."
+      "Serve with a side dip if desired.",
     ],
     nutrition: {
       calories: 450,
@@ -279,14 +284,14 @@ var recipes = [];
       carbs: "55g",
       fat: "16g",
       fiber: "3g",
-      sodium: "680mg"
+      sodium: "680mg",
     },
     Tips: [
       "Use fresh bakery bread for best results",
       "Toast the bread slightly for crunch",
       "Add olives for a salty kick",
-      "Wrap in paper to keep it together"
-    ]
+      "Wrap in paper to keep it together",
+    ],
   },
   {
     title: "Classic Shrimp Pad Thai",
@@ -298,21 +303,22 @@ var recipes = [];
     servings: 2,
     level: "Intermediate",
     cuisine: "Thai",
-    description: "Famous stir-fried rice noodles tossed with large shrimp, egg, bean sprouts, and a tangy tamarind sauce, topped with crushed peanuts.", // 👈 الوصف الجديد
+    description:
+      "Famous stir-fried rice noodles tossed with large shrimp, egg, bean sprouts, and a tangy tamarind sauce, topped with crushed peanuts.", // 👈 الوصف الجديد
     ingredients: [
       "Rice noodles",
       "Large shrimp",
       "Bean sprouts",
       "Egg",
       "Peanuts, crushed",
-      "Tamarind sauce"
+      "Tamarind sauce",
     ],
     instruction: [
       "Soak rice noodles in warm water.",
       "Stir-fry shrimp until pink, then remove.",
       "Scramble egg in the pan, add noodles and sauce.",
       "Toss with bean sprouts and cooked shrimp.",
-      "Serve with lime and crushed peanuts."
+      "Serve with lime and crushed peanuts.",
     ],
     nutrition: {
       calories: 490,
@@ -320,14 +326,14 @@ var recipes = [];
       carbs: "62g",
       fat: "14g",
       fiber: "3g",
-      sodium: "920mg"
+      sodium: "920mg",
     },
     Tips: [
       "Don't overcook the noodles or they get mushy",
       "Fresh tamarind works best for sauce",
       "Wok needs to be very hot",
-      "Squeeze lime just before eating"
-    ]
+      "Squeeze lime just before eating",
+    ],
   },
   {
     title: "Creamy Pumpkin & Tomato Soup",
@@ -339,21 +345,22 @@ var recipes = [];
     servings: 4,
     level: "Easy",
     cuisine: "Continental",
-    description: "A comforting and smooth soup combining roasted pumpkin and tomatoes with heavy cream and topped with crunchy pepitas.", // 👈 الوصف الجديد
+    description:
+      "A comforting and smooth soup combining roasted pumpkin and tomatoes with heavy cream and topped with crunchy pepitas.", // 👈 الوصف الجديد
     ingredients: [
       "Pumpkin puree",
       "Ripe tomatoes",
       "Heavy cream",
       "Vegetable broth",
       "Pumpkin seeds (Pepitas)",
-      "Parsley"
+      "Parsley",
     ],
     instruction: [
       "Roast tomatoes and pumpkin chunks.",
       "Blend roasted veggies with broth until smooth.",
       "Simmer in a pot and stir in cream.",
       "Season with salt, pepper, and herbs.",
-      "Garnish with cream swirl and pumpkin seeds."
+      "Garnish with cream swirl and pumpkin seeds.",
     ],
     nutrition: {
       calories: 280,
@@ -361,14 +368,14 @@ var recipes = [];
       carbs: "22g",
       fat: "18g",
       fiber: "5g",
-      sodium: "420mg"
+      sodium: "420mg",
     },
     Tips: [
       "Roasting vegetables adds sweetness",
       "Use coconut milk for a vegan version",
       "Top with croutons for crunch",
-      "Store leftovers for up to 3 days"
-    ]
+      "Store leftovers for up to 3 days",
+    ],
   },
   {
     title: "Roasted Sweet Potato Tacos",
@@ -380,21 +387,22 @@ var recipes = [];
     servings: 3,
     level: "Easy",
     cuisine: "Mexican",
-    description: "Vegetarian tacos filled with roasted sweet potatoes, spiced chickpeas, avocado slices, and a squeeze of fresh lime.", // 👈 الوصف الجديد
+    description:
+      "Vegetarian tacos filled with roasted sweet potatoes, spiced chickpeas, avocado slices, and a squeeze of fresh lime.", // 👈 الوصف الجديد
     ingredients: [
       "Sweet potatoes, diced",
       "Chickpeas",
       "Small flour tortillas",
       "Avocado slices",
       "Lime wedges",
-      "Cilantro"
+      "Cilantro",
     ],
     instruction: [
       "Toss sweet potatoes and chickpeas in spices and roast.",
       "Warm the tortillas on a skillet.",
       "Fill tacos with the roasted mixture.",
       "Top with avocado and fresh cilantro.",
-      "Squeeze fresh lime juice over top."
+      "Squeeze fresh lime juice over top.",
     ],
     nutrition: {
       calories: 340,
@@ -402,31 +410,31 @@ var recipes = [];
       carbs: "48g",
       fat: "12g",
       fiber: "8g",
-      sodium: "380mg"
+      sodium: "380mg",
     },
     Tips: [
       "Add chipotle powder for smokiness",
       "Mash avocado for a creamy spread",
       "Corn tortillas make it gluten-free",
-      "Serve with salsa on the side"
-    ]
-  }
+      "Serve with salsa on the side",
+    ],
+  },
 ];
 
-localStorage.setItem( key,JSON.stringify(recipes)) ;
+localStorage.setItem(key, JSON.stringify(recipes));
 
-recipes = JSON.parse(localStorage.getItem(key)) ;
+recipes = JSON.parse(localStorage.getItem(key));
 // localStorage.clear() ;
 
-var Recipes_template = document.getElementById("Recipes") ;
+var Recipes_template = document.getElementById("Recipes");
 
-showMeal() ;
+showMeal();
 
-function showMeal(){
-    var i = Math.floor(Math.random() * (recipes.length-1)) ;
-    var warning = Math.floor(Math.random() * 2) ; 
-    var status = (warning === 1) ? "d-flex" : "d-none";
-    Recipes_template.innerHTML = `
+function showMeal() {
+  var i = Math.floor(Math.random() * (recipes.length - 1));
+  var warning = Math.floor(Math.random() * 2);
+  var status = warning === 1 ? "d-flex" : "d-none";
+  Recipes_template.innerHTML = `
 
     <div class="recipe row g-0 overflow-hidden bg-white rounded-4" >
           <div class="left col-12 col-lg-5 position-relative h-100">
@@ -517,93 +525,86 @@ function showMeal(){
                 </p>
               </div>
             </div>
+
+            
             <div class="panel">
               <nav>
-                <div
-                  class="nav row g-2 p-3 mb-4 border-bottom"
-                  id="nav-tab"
-                  role="tablist"
-                >
-                  <div
-                    class="btn-item fw-semibold col-3 d-flex justify-content-center"
-                  >
+                <ul class="nav nav-tabs row g-2 p-3 mb-4 border-bottom" id="nav-tab-${i}" role="tablist">
+                  
+                  <li class="nav-item btn-item col-3 d-flex justify-content-center" role="presentation">
                     <button
-                      class="nav-link active d-flex justify-content-center align-items-center text-secondary p-0 pb-2"
-                      id="nav-home-tab"
+                      class="nav-link active w-100 d-flex justify-content-center align-items-center text-secondary p-0 pb-2"
+                      id="nav-ingredients-tab-${i}"
                       data-bs-toggle="tab"
-                      data-bs-target="#nav-home"
+                      data-bs-target="#nav-ingredients-${i}"
                       type="button"
                       role="tab"
-                      aria-controls="nav-home"
+                      aria-controls="nav-ingredients-${i}"
                       aria-selected="true"
                     >
                       <i class="fas fa-list me-2"></i> Ingredients
                     </button>
-                  </div>
+                  </li>
 
-                  <div
-                    class="btn-item fw-semibold col-3 d-flex justify-content-center"
-                  >
+                  <li class="nav-item btn-item col-3 d-flex justify-content-center" role="presentation">
                     <button
-                      class="nav-link d-flex justify-content-center align-items-center text-secondary p-0 pb-2"
-                      id="nav-profile-tab"
+                      class="nav-link w-100 d-flex justify-content-center align-items-center text-secondary p-0 pb-2"
+                      id="nav-instructions-tab-${i}"
                       data-bs-toggle="tab"
-                      data-bs-target="#nav-profile"
+                      data-bs-target="#nav-instructions-${i}"
                       type="button"
                       role="tab"
-                      aria-controls="nav-profile"
+                      aria-controls="nav-instructions-${i}"
                       aria-selected="false"
                     >
                       <i class="fas fa-book-open me-2"></i> Instructions
                     </button>
-                  </div>
+                  </li>
 
-                  <div
-                    class="btn-item fw-semibold col-3 d-flex justify-content-center"
-                  >
+                  <li class="nav-item btn-item col-3 d-flex justify-content-center" role="presentation">
                     <button
-                      class="nav-link d-flex justify-content-center align-items-center text-secondary p-0 pb-2"
-                      id="nav-contact-tab"
+                      class="nav-link w-100 d-flex justify-content-center align-items-center text-secondary p-0 pb-2"
+                      id="nav-nutrition-tab-${i}"
                       data-bs-toggle="tab"
-                      data-bs-target="#nav-contact"
+                      data-bs-target="#nav-nutrition-${i}"
                       type="button"
                       role="tab"
-                      aria-controls="nav-contact"
+                      aria-controls="nav-nutrition-${i}"
                       aria-selected="false"
                     >
                       <i class="fas fa-chart-pie me-2"></i> Nutrition
                     </button>
-                  </div>
+                  </li>
 
-                  <div
-                    class="btn-item fw-semibold col-3 d-flex justify-content-center"
-                  >
+                  <li class="nav-item btn-item col-3 d-flex justify-content-center" role="presentation">
                     <button
-                      class="nav-link d-flex justify-content-center align-items-center text-secondary p-0 pb-2"
-                      id="nav-contact-tab"
+                      class="nav-link w-100 d-flex justify-content-center align-items-center text-secondary p-0 pb-2"
+                      id="nav-tips-tab-${i}"
                       data-bs-toggle="tab"
-                      data-bs-target="#nav-tips"
+                      data-bs-target="#nav-tips-${i}"
                       type="button"
                       role="tab"
-                      aria-controls="nav-contact"
+                      aria-controls="nav-tips-${i}"
                       aria-selected="false"
                     >
                       <i class="fas fa-lightbulb me-2"></i> Chef's Tips
                     </button>
-                  </div>
-                </div>
+                  </li>
+                </ul>
               </nav>
-              <div class="tab-content" id="nav-tabContent">
+
+              <div class="tab-content" id="nav-tabContent-${i}">
+                
                 <div
                   class="tab-pane ingrediants fade show active p-4 rounded-4"
-                  id="nav-home"
+                  id="nav-ingredients-${i}"
                   role="tabpanel"
-                  aria-labelledby="nav-home-tab"
+                  aria-labelledby="nav-ingredients-tab-${i}"
                   tabindex="0"
                 >
                   <div class="item d-flex mb-12 align-items-center">
                     <div class="my-count me-12 rounded-circle bg-main"></div>
-                    <span>1${recipes[i].ingredients[0]}</span>
+                    <span>1 ${recipes[i].ingredients[0]}</span>
                   </div>
                   <div class="item d-flex mb-12 align-items-center">
                     <div class="my-count me-12 rounded-circle bg-main"></div>
@@ -622,95 +623,57 @@ function showMeal(){
                     <span>${recipes[i].ingredients[4]}</span>
                   </div>
                 </div>
+
                 <div
                   class="tab-pane instructions fade"
-                  id="nav-profile"
+                  id="nav-instructions-${i}"
                   role="tabpanel"
-                  aria-labelledby="nav-profile-tab"
+                  aria-labelledby="nav-instructions-tab-${i}"
                   tabindex="0"
                 >
                   <div class="item d-flex mb-4">
-                    <div
-                      class="icon d-flex bg-main rounded-4 me-3 position-relative"
-                    ></div>
-                    <p>
-                      ${recipes[i].instruction[0]}
-                    </p>
+                    <div class="icon d-flex bg-main rounded-4 me-3 position-relative"></div>
+                    <p>${recipes[i].instruction[0]}</p>
                   </div>
                   <div class="item d-flex mb-4">
-                    <div
-                      class="icon d-flex bg-main rounded-4 me-3 position-relative"
-                    ></div>
-                    <p>
-                    ${recipes[i].instruction[1]}
-                    </p>
+                    <div class="icon d-flex bg-main rounded-4 me-3 position-relative"></div>
+                    <p>${recipes[i].instruction[1]}</p>
                   </div>
                   <div class="item d-flex mb-4">
-                    <div
-                      class="icon d-flex bg-main rounded-4 me-3 position-relative"
-                    ></div>
-                    <p>
-                    ${recipes[i].instruction[2]}
-                    </p>
+                    <div class="icon d-flex bg-main rounded-4 me-3 position-relative"></div>
+                    <p>${recipes[i].instruction[2]}</p>
                   </div>
                   <div class="item d-flex mb-4">
-                    <div
-                      class="icon d-flex bg-main rounded-4 me-3 position-relative"
-                    ></div>
-                    <p>
-                    ${recipes[i].instruction[3]}
-                    </p>
+                    <div class="icon d-flex bg-main rounded-4 me-3 position-relative"></div>
+                    <p>${recipes[i].instruction[3]}</p>
                   </div>
                   <div class="item d-flex mb-4">
-                    <div
-                      class="icon d-flex bg-main rounded-4 me-3 position-relative"
-                    ></div>
-                    <p>
-                    ${recipes[i].instruction[4]}
-                    </p>
+                    <div class="icon d-flex bg-main rounded-4 me-3 position-relative"></div>
+                    <p>${recipes[i].instruction[4]}</p>
                   </div>
                 </div>
+
                 <div
                   class="tab-pane nutritions fade"
-                  id="nav-contact"
+                  id="nav-nutrition-${i}"
                   role="tabpanel"
-                  aria-labelledby="nav-contact-tab"
+                  aria-labelledby="nav-nutrition-tab-${i}"
                   tabindex="0"
                 >
                   <div class="content">
-                    <div
-                      class="item p-3 rounded-3 d-flex justify-content-between align-items-center"
-                    >
+                    <div class="item p-3 rounded-3 d-flex justify-content-between align-items-center">
                       <div class="d-flex align-items-center">
-                        <div
-                          class="icon d-flex align-items-center justify-content-center rounded-3 me-12"
-                          style="
-                            background: #ffdeaaff;
-                            color: #ff7b00ff;
-                            width: 40px;
-                            height: 40px;
-                          "
-                        >
+                        <div class="icon d-flex align-items-center justify-content-center rounded-3 me-12" style="background: #ffdeaaff; color: #ff7b00ff; width: 40px; height: 40px;">
                           <i class="fa-solid fa-fire"></i>
                         </div>
                         <span class="fw-medium">Calories</span>
                       </div>
-                      <span class="fw-bold text-black">${recipes[i].nutrition.calories} </span>
+                      <span class="fw-bold text-black">${recipes[i].nutrition.calories}</span>
                     </div>
 
-                    <div
-                      class="item p-3 rounded-3 d-flex justify-content-between align-items-center"
-                    >
+                    <div class="item p-3 rounded-3 d-flex justify-content-between align-items-center">
                       <div class="d-flex align-items-center">
-                        <div
-                          class="icon d-flex align-items-center justify-content-center rounded-3 me-12"
-                          style="
-                            background: #e1ecff;
-                            color: #4a90e2;
-                            width: 40px;
-                            height: 40px;
-                          "
-                        >
+                        <div class="icon d-flex align-items-center justify-content-center rounded-3 me-12" style="background: #e1ecff; color: #4a90e2; width: 40px; height: 40px;">
                           <i class="fa-solid fa-dumbbell"></i>
                         </div>
                         <span class="fw-medium">Protein</span>
@@ -718,39 +681,19 @@ function showMeal(){
                       <span class="fw-bold text-black">${recipes[i].nutrition.protein}</span>
                     </div>
 
-                    <div
-                      class="item p-3 rounded-3 d-flex justify-content-between align-items-center"
-                    >
+                    <div class="item p-3 rounded-3 d-flex justify-content-between align-items-center">
                       <div class="d-flex align-items-center">
-                        <div
-                          class="icon d-flex align-items-center justify-content-center rounded-3 me-12"
-                          style="
-                            background: #fff4d7;
-                            color: #d39b00;
-                            width: 40px;
-                            height: 40px;
-                          "
-                        >
+                        <div class="icon d-flex align-items-center justify-content-center rounded-3 me-12" style="background: #fff4d7; color: #d39b00; width: 40px; height: 40px;">
                           <i class="fa-solid fa-wheat-awn"></i>
                         </div>
                         <span class="fw-medium">Carbohydrates</span>
                       </div>
                       <span class="fw-bold text-black">${recipes[i].nutrition.carbs}</span>
                     </div>
-
-                    <div
-                      class="item p-3 rounded-3 d-flex justify-content-between align-items-center"
-                    >
+                    
+                     <div class="item p-3 rounded-3 d-flex justify-content-between align-items-center">
                       <div class="d-flex align-items-center">
-                        <div
-                          class="icon d-flex align-items-center justify-content-center rounded-3 me-12"
-                          style="
-                            background: #ffe1e1;
-                            color: #ff3b30;
-                            width: 40px;
-                            height: 40px;
-                          "
-                        >
+                        <div class="icon d-flex align-items-center justify-content-center rounded-3 me-12" style="background: #ffe1e1; color: #ff3b30; width: 40px; height: 40px;">
                           <i class="fa-solid fa-droplet"></i>
                         </div>
                         <span class="fw-medium">Fat</span>
@@ -758,19 +701,9 @@ function showMeal(){
                       <span class="fw-bold text-black">${recipes[i].nutrition.fit}</span>
                     </div>
 
-                    <div
-                      class="item p-3 rounded-3 d-flex justify-content-between align-items-center"
-                    >
+                     <div class="item p-3 rounded-3 d-flex justify-content-between align-items-center">
                       <div class="d-flex align-items-center">
-                        <div
-                          class="icon d-flex align-items-center justify-content-center rounded-3 me-12"
-                          style="
-                            background: #e4ffe4;
-                            color: #2ecc71;
-                            width: 40px;
-                            height: 40px;
-                          "
-                        >
+                        <div class="icon d-flex align-items-center justify-content-center rounded-3 me-12" style="background: #e4ffe4; color: #2ecc71; width: 40px; height: 40px;">
                           <i class="fa-solid fa-seedling"></i>
                         </div>
                         <span class="fw-medium">Fiber</span>
@@ -778,19 +711,9 @@ function showMeal(){
                       <span class="fw-bold text-black">${recipes[i].nutrition.fiber}</span>
                     </div>
 
-                    <div
-                      class="item p-3 rounded-3 d-flex justify-content-between align-items-center"
-                    >
+                     <div class="item p-3 rounded-3 d-flex justify-content-between align-items-center">
                       <div class="d-flex align-items-center">
-                        <div
-                          class="icon d-flex align-items-center justify-content-center rounded-3 me-12"
-                          style="
-                            background: #ffe4f4;
-                            color: #ff4f9a;
-                            width: 40px;
-                            height: 40px;
-                          "
-                        >
+                        <div class="icon d-flex align-items-center justify-content-center rounded-3 me-12" style="background: #ffe4f4; color: #ff4f9a; width: 40px; height: 40px;">
                           <i class="fa-solid fa-cube"></i>
                         </div>
                         <span class="fw-medium">Sodium</span>
@@ -802,44 +725,29 @@ function showMeal(){
 
                 <div
                   class="tab-pane tips fade"
-                  id="nav-tips"
+                  id="nav-tips-${i}"
                   role="tabpanel"
-                  aria-labelledby="nav-disabled-tab"
+                  aria-labelledby="nav-tips-tab-${i}"
                   tabindex="0"
                 >
-                  <div
-                    class="item d-flex align-items-center p-3 mb-3 rounded-3 border-start border-5 border-warning bg-warning-subtle"
-                  >
+                  <div class="item d-flex align-items-center p-3 mb-3 rounded-3 border-start border-5 border-warning bg-warning-subtle">
                     <i class="fa-solid fa-circle-check txt-main me-3 fa-lg"></i>
-                    <p class="m-0">
-                      ${recipes[i].Tips[0]}
-                    </p>
+                    <p class="m-0">${recipes[i].Tips[0]}</p>
                   </div>
-                  <div
-                    class="item d-flex align-items-center p-3 mb-3 rounded-3 border-start border-5 border-warning bg-warning-subtle"
-                  >
+                  <div class="item d-flex align-items-center p-3 mb-3 rounded-3 border-start border-5 border-warning bg-warning-subtle">
                     <i class="fa-solid fa-circle-check txt-main me-3 fa-lg"></i>
-                    <p class="m-0">
-                      ${recipes[i].Tips[1]}
-                    </p>
+                    <p class="m-0">${recipes[i].Tips[1]}</p>
                   </div>
-                  <div
-                    class="item d-flex align-items-center p-3 mb-3 rounded-3 border-start border-5 border-warning bg-warning-subtle"
-                  >
+                  <div class="item d-flex align-items-center p-3 mb-3 rounded-3 border-start border-5 border-warning bg-warning-subtle">
                     <i class="fa-solid fa-circle-check txt-main me-3 fa-lg"></i>
-                    <p class="m-0">
-                      ${recipes[i].Tips[2]}
-                    </p>
+                    <p class="m-0">${recipes[i].Tips[2]}</p>
                   </div>
-                  <div
-                    class="item d-flex align-items-center p-3 mb-3 rounded-3 border-start border-5 border-warning bg-warning-subtle"
-                  >
+                  <div class="item d-flex align-items-center p-3 mb-3 rounded-3 border-start border-5 border-warning bg-warning-subtle">
                     <i class="fa-solid fa-circle-check txt-main me-3 fa-lg"></i>
-                    <p class="m-0">
-                      ${recipes[i].Tips[3]}
-                    </p>
+                    <p class="m-0">${recipes[i].Tips[3]}</p>
                   </div>
                 </div>
+
               </div>
             </div>
             <div class="bottom mt-32 pt-4 border-top">
@@ -855,5 +763,5 @@ function showMeal(){
           </div>
         </div>
 
-`
+`;
 }
