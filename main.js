@@ -451,7 +451,7 @@ function showMeal() {
             <div
               class="details m-0 row g-3 p-4 position-absolute bg-white rounded-4"
             >
-              <div class="item col-4">
+              <div class="item col-4 mt-0">
                 <div class="inner text-center">
                   <i class="fa-solid fa-clock fa-xl" style="color: #ff7a00"></i>
                   <p class="m-0 fs14 lh20 fw-normal">Prep Time</p>
@@ -459,7 +459,7 @@ function showMeal() {
                 </div>
               </div>
 
-              <div class="item col-4">
+              <div class="item col-4 mt-0">
                 <div class="inner text-center">
                   <i
                     class="fa-solid fa-fire-burner fa-xl"
@@ -470,7 +470,7 @@ function showMeal() {
                 </div>
               </div>
 
-              <div class="item col-4">
+              <div class="item col-4 mt-0">
                 <div class="inner text-center">
                   <i
                     class="fa-solid fa-people-group fa-xl"
