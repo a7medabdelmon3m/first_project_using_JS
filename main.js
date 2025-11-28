@@ -6,7 +6,7 @@ var recipes = [];
   recipes = [
   {
     title: "Classic Caesar Salad",
-    img: "./meal (3).jpg",
+    img: "meal (3).jpg",
     rating: 4.8,
     reviews: 150,
     prepTime: "20 min",
@@ -46,7 +46,7 @@ var recipes = [];
   },
   {
     title: "Grilled Ribeye Steak",
-    img: "./meal (8).jpg",
+    img: "meal (8).jpg",
     rating: 4.9,
     reviews: 342,
     prepTime: "10 min",
@@ -86,7 +86,7 @@ var recipes = [];
   },
   {
     title: "Tofu Buddha Bowl",
-    img: "./meal (1).jpg",
+    img: "meal (1).jpg",
     rating: 4.6,
     reviews: 120,
     prepTime: "20 min",
@@ -127,7 +127,7 @@ var recipes = [];
   },
   {
     title: "Chicken Tikka Masala",
-    img: "./meal (10).jpg",
+    img: "meal (10).jpg",
     rating: 4.9,
     reviews: 512,
     prepTime: "30 min",
@@ -168,7 +168,7 @@ var recipes = [];
   },
   {
     title: "Thai Red Curry",
-    img: "./meal (6).jpg",
+    img: "meal (6).jpg",
     rating: 4.7,
     reviews: 215,
     prepTime: "15 min",
@@ -209,7 +209,7 @@ var recipes = [];
   },
   {
     title: "Spicy Glazed Tofu Bowl",
-    img: "./meal (2).jpg",
+    img: "meal (2).jpg",
     rating: 4.5,
     reviews: 98,
     prepTime: "15 min",
@@ -250,7 +250,7 @@ var recipes = [];
   },
   {
     title: "Fresh Baguette Sandwich",
-    img: "./meal (7).jpg",
+    img: "meal (7).jpg",
     rating: 4.4,
     reviews: 85,
     prepTime: "10 min",
@@ -290,7 +290,7 @@ var recipes = [];
   },
   {
     title: "Classic Shrimp Pad Thai",
-    img: "./meal (5).jpg",
+    img: "meal (5).jpg",
     rating: 4.8,
     reviews: 420,
     prepTime: "20 min",
@@ -331,7 +331,7 @@ var recipes = [];
   },
   {
     title: "Creamy Pumpkin & Tomato Soup",
-    img: "./meal (4).jpg",
+    img: "meal (4).jpg",
     rating: 4.6,
     reviews: 180,
     prepTime: "15 min",
@@ -372,7 +372,7 @@ var recipes = [];
   },
   {
     title: "Roasted Sweet Potato Tacos",
-    img: "./meal (9).jpg",
+    img: "meal (9).jpg",
     rating: 4.8,
     reviews: 135,
     prepTime: "20 min",
