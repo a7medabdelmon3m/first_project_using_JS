@@ -413,7 +413,7 @@ var recipes = [];
   }
 ];
 
-// localStorage.setItem( key,JSON.stringify(recipes)) ;
+localStorage.setItem( key,JSON.stringify(recipes)) ;
 
 recipes = JSON.parse(localStorage.getItem(key)) ;
 // localStorage.clear() ;
